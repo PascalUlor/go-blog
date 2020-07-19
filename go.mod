@@ -1,6 +1,6 @@
 module example.com/main
 
-go 1.13
+go 1.14
 
 require (
 	example.com/me/api v0.0.0
