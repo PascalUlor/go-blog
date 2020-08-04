@@ -1,1 +1,2 @@
-CREATE DATABASE blog_api;
+CREATE DATABASE blog_test;
+-- CREATE DATABASE blog_api;

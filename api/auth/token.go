@@ -83,7 +83,7 @@ func ExtractTokenID(r *http.Request) (uint32, error) {
 
 //Pretty display on terminal
 func Pretty(data interface{}) {
-	b, err := json.MarshalIndent(data, "", " ")
+	b, err := json.MarshalIndent(data, ">>>Token>>>", " ")
 
 	if err != nil {
 		log.Println(err)
