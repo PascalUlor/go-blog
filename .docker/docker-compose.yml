@@ -17,6 +17,8 @@ services:
             - 5432:5432
         volumes:
             - db-data:/var/lib/postgresql/data:delegated
+            - db-test:/var/lib/postgresql/test:delegated
 
 volumes:
     db-data:
+    db-test:
